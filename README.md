@@ -1,4 +1,3 @@
-# Photonic-Hexagonal-Mesh-Studio
 # ⬡ Photonic Hexagonal Mesh Studio (TBU Controller Suite)
 
 > **A Comprehensive Digital Twin and Control Software Architecture for Programmable Photonic Integrated Circuits (PICs) and Field-Programmable Photonic Gate Arrays (FPPGAs).**
