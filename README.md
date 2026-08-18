@@ -51,7 +51,7 @@ The software maps high-level routing demands into specific physical states for e
 | :--- | :--- | :--- | :--- |
 | **Bar State (BS)** | Direct Throughput | $T_{\parallel} = -3.75, T_X = 0.0$ | Bypassing nodes, straight-line routing. |
 | **Cross State (CS)** | Complete Diagonal Crossover | $T_{\parallel} = 0.0, T_X = 0.0$ | Switching tracks, intersection routing. |
-| **Tunable Coupler (TC)** | Variable Power Splitting | $0.0 < T_{\parallel} < 3.750$ | SVD matrix weighting, signal broadcasting. |
+| **Tunable Coupler (TC)** | Variable Power Splitting | $-3.75 < T_{\parallel} < 0.0$ | SVD matrix weighting, signal broadcasting. |
 
 ### Interactive Defect Modeling
 To design robust optical circuits, the software includes a physical fault-injection system. Users can interactively trigger failure modes to test the resilience of their routing algorithms:
