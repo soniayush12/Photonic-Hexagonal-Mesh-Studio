@@ -40,13 +40,13 @@ As the demands of artificial intelligence, high-frequency signal processing, and
 * Traditional digital von-Neumann architectures suffer from inherent latency and power bottlenecks when performing the massive parallel matrix computations required for neural networks and continuous physical modeling[cite: 7].
 * This software suite leverages APC, an architecture that performs calculations natively at the speed of light[cite: 7]. 
 * Instead of shuffling bits between memory and a CPU, computations occur continuously as photons propagate through cascaded interferometers[cite: 7]. 
-* The optical mesh essentially acts as a highly specialized, reprogrammable analog computer capable of executing continuous matrix-vector multiplications ($y = Ax$) with near-zero latency and orders of magnitude lower power consumption[cite: 7].
+* The optical mesh essentially acts as a highly specialized, reprogrammable analog computer capable of executing continuous matrix-vector multiplications with near-zero latency and orders of magnitude lower power consumption[cite: 7].
 
 ---
 
 ## 🔲 3. Core Hardware Abstraction: Tunable Basic Units (TBUs) <a name="3-core-hardware-abstraction"></a>
 
-At the heart of the simulator and the physical PIC is the **Tunable Basic Unit (TBU)**[cite: 6]. Physically, this is realized as a balanced Mach–Zehnder Interferometer (MZI) equipped with dual-drive thermo-optic or electro-optic phase modulators ($\theta$ and $\phi$)[cite: 5, 6].
+At the heart of the simulator and the physical PIC is the **Tunable Basic Unit (TBU)**[cite: 6]. Physically, this is realized as a balanced Mach–Zehnder Interferometer (MZI) equipped with dual-drive thermo-optic or electro-optic phase modulators[cite: 5, 6].
 
 The software maps high-level routing demands into specific physical states for each TBU across the mesh.
 
@@ -60,9 +60,9 @@ The software maps high-level routing demands into specific physical states for e
 
 | State | Optical Function | Transfer Characteristics | Application in Mesh |
 | :--- | :--- | :--- | :--- |
-| **Bar State (BS)** | Direct Throughput | $T_{\parallel} = 1.0, T_X = 0.0$ | Bypassing nodes, straight-line routing[cite: 5, 6]. |
-| **Cross State (CS)** | Complete Diagonal Crossover | $T_{\parallel} = 0.0, T_X = 1.0$ | Switching tracks, intersection routing[cite: 5, 6]. |
-| **Tunable Coupler (TC)** | Variable Power Splitting | $0.0 < T_{\parallel} < 1.0$ | SVD matrix weighting, signal broadcasting[cite: 5, 6]. |
+| **Bar State (BS)** | Direct Throughput | Bar = 1.0, Cross = 0.0 | Bypassing nodes, straight-line routing[cite: 5, 6]. |
+| **Cross State (CS)** | Complete Diagonal Crossover | Bar = 0.0, Cross = 1.0 | Switching tracks, intersection routing[cite: 5, 6]. |
+| **Tunable Coupler (TC)** | Variable Power Splitting | 0.0 < Bar < 1.0 | SVD matrix weighting, signal broadcasting[cite: 5, 6]. |
 
 ### Interactive Defect Modeling
 To design robust optical circuits, the software includes a physical fault-injection system[cite: 5]. Users can interactively trigger failure modes to test the resilience of their routing algorithms:
@@ -88,22 +88,14 @@ While early programmable photonics relied on square (Manhattan) or triangular gr
 The studio is not just a routing tool; it is a mathematical compiler. It translates non-unitary continuous-time systems into passive, energy-conserving optical instructions[cite: 7].
 
 ### Differential Equation Solvers
-The software is capable of modeling second-order linear differential equations natively in the optical domain[cite: 7]. For example, a Damped Harmonic Oscillator (DHM) system:
-
-$$\frac{d^2 x}{dt^2} + b\frac{dx}{dt} + \omega^2 x = 0$$
-
-Can be transformed into a state-space representation[cite: 7]:
-
-$$\begin{bmatrix} x' \\ x'' \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -\omega^2 & -b \end{bmatrix} \begin{bmatrix} x \\ x' \end{bmatrix}$$
+The software is capable of modeling second-order linear differential equations natively in the optical domain[cite: 7]. For example, a Damped Harmonic Oscillator (DHM) system can be transformed into a state-space representation, allowing the physical dynamics to be computed directly by the optical mesh[cite: 7].
 
 ### Singular Value Decomposition (SVD) Optical Bridge
-Because the physical optical mesh is unitary (energy-conserving, meaning $U U^\dagger = I$), it cannot natively represent a non-unitary matrix $M$ (such as the state-space matrix of a damped system)[cite: 7]. The software bridges this via **SVD**:
+Because the physical optical mesh is unitary (energy-conserving), it cannot natively represent a non-unitary matrix (such as the state-space matrix of a system with friction or damping)[cite: 7]. The software bridges this hardware limitation via SVD factorization[cite: 7]:
 
-$$M = U \Sigma V^\dagger$$
-
-* **$V^\dagger$ (Input Rotation):** The software compiles this orthogonal matrix into the first layer of MZIs to perform a lossless rotation of the input optical vector[cite: 7].
-* **$\Sigma$ (Diagonal Attenuation):** The singular values are normalized to a maximum of 1.0[cite: 7]. The software configures a middle layer of MZIs in Tunable Coupler (TC) mode to act as variable optical attenuators (VOAs), discarding excess energy to represent physical damping[cite: 7].
-* **$U$ (Output Rotation):** The final orthogonal transformation, mapping the scaled optical signals back to the target basis for photodiode detection[cite: 7].
+* **Input Rotation:** The software compiles the orthogonal input matrix into the first layer of MZIs to perform a lossless rotation of the input optical vector[cite: 7].
+* **Diagonal Attenuation:** The singular scaling values are normalized to a maximum of 1.0[cite: 7]. The software configures a middle layer of MZIs in Tunable Coupler (TC) mode to act as variable optical attenuators (VOAs), physically discarding excess energy to represent mathematical damping[cite: 7].
+* **Output Rotation:** The final orthogonal transformation maps the scaled optical signals back to the target basis for accurate photodiode detection[cite: 7].
 
 ---
 
@@ -128,7 +120,7 @@ $$M = U \Sigma V^\dagger$$
 
 * **Coherent Path-Length Matching:** In interferometric optical computing, phase coherence is critical. The routing engine ensures that parallel multi-channel routes maintain equivalent optical path lengths to prevent unintended destructive interference[cite: 5].
 * **Backtracking Rip-Up and Reroute:** An EDA-style autoplacer that automatically dynamically rips up low-priority optical routes if a high-priority path is blocked by topological constraints or physical hardware defects[cite: 5].
-* **Hardware Interface Export:** Seamlessly serializes the computed optical graph into JSON netlists, complete with adjacency lists, boundary I/O ports, and voltage lookup tables for tools like Lumerical INTERCONNECT[cite: 5].
+* **Hardware Interface Export:** Seamlessly serializes the computed optical graph into JSON netlists, complete with adjacency lists, boundary I/O ports, and voltage lookup tables for external tools[cite: 5].
 
 ---
 
