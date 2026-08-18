@@ -5,7 +5,7 @@
 ---
 
 ## 👨‍💻 Creator & Lead Architect
-**Ayush Soni** *Proprietary & Confidential Toolkit — Patent Pending (2026)*
+**Ayush Soni** *Proprietary & Confidential Toolkit — Work Pending (2026)*
 
 ---
 
