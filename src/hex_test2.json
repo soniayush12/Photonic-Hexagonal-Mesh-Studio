@@ -1,0 +1,5796 @@
+{
+    "metadata": {
+        "format": "FPPGA_Hexagonal_Mesh",
+        "version": "3.0",
+        "target": "Lumerical_INTERCONNECT",
+        "V_PI": -3.725
+    },
+    "grid": {
+        "num_cols": 4,
+        "num_rows": 4,
+        "L_um": 1.1,
+        "w_um": 0.4,
+        "port_len_um": 0.25,
+        "port_sep_um": 0.22,
+        "node_gap_um": 0.2
+    },
+    "mesh_summary": {
+        "total_tbus": 48,
+        "total_open_ports": 30,
+        "free_optical_ports": [
+            "MZI_1_1_in_Opt1",
+            "MZI_1_1_in_Opt2",
+            "MZI_1_1_up_Opt3",
+            "MZI_1_2_in_Opt1",
+            "MZI_1_2_in_Opt2",
+            "MZI_1_3_in_Opt1",
+            "MZI_1_3_in_Opt2",
+            "MZI_1_4_down_Opt3",
+            "MZI_1_4_down_Opt4",
+            "MZI_1_4_in_Opt1",
+            "MZI_1_4_in_Opt2",
+            "MZI_2_1_in_Opt1",
+            "MZI_2_1_up_Opt3",
+            "MZI_2_1_up_Opt4",
+            "MZI_2_4_down_Opt4",
+            "MZI_3_1_up_Opt3",
+            "MZI_3_4_down_Opt3",
+            "MZI_3_4_down_Opt4",
+            "MZI_3_4_in_Opt2",
+            "MZI_4_1_down_Opt3",
+            "MZI_4_1_in_Opt1",
+            "MZI_4_1_up_Opt3",
+            "MZI_4_1_up_Opt4",
+            "MZI_4_2_down_Opt3",
+            "MZI_4_2_up_Opt4",
+            "MZI_4_3_down_Opt3",
+            "MZI_4_3_up_Opt4",
+            "MZI_4_4_down_Opt3",
+            "MZI_4_4_down_Opt4",
+            "MZI_4_4_up_Opt4"
+        ]
+    },
+    "graph_representation": {
+        "graph_type": "LoopFree_Photonic_Mesh_Network",
+        "total_nodes": 192,
+        "open_boundary_ports": [
+            "MZI_2_1_up_Opt3",
+            "MZI_3_4_down_Opt3",
+            "MZI_4_3_up_Opt4",
+            "MZI_2_1_in_Opt1",
+            "MZI_1_3_in_Opt2",
+            "MZI_1_1_in_Opt1",
+            "MZI_1_4_down_Opt4",
+            "MZI_1_1_up_Opt3",
+            "MZI_2_4_down_Opt4",
+            "MZI_3_4_in_Opt2",
+            "MZI_4_4_up_Opt4",
+            "MZI_4_2_up_Opt4",
+            "MZI_4_2_down_Opt3",
+            "MZI_4_4_down_Opt4",
+            "MZI_4_1_up_Opt3",
+            "MZI_1_3_in_Opt1",
+            "MZI_1_4_down_Opt3",
+            "MZI_1_1_in_Opt2",
+            "MZI_3_1_up_Opt3",
+            "MZI_2_1_up_Opt4",
+            "MZI_3_4_down_Opt4",
+            "MZI_4_3_down_Opt3",
+            "MZI_4_1_in_Opt1",
+            "MZI_4_4_down_Opt3",
+            "MZI_1_2_in_Opt2",
+            "MZI_1_2_in_Opt1",
+            "MZI_4_1_up_Opt4",
+            "MZI_1_4_in_Opt2",
+            "MZI_4_1_down_Opt3",
+            "MZI_1_4_in_Opt1"
+        ],
+        "nodes": {
+            "MZI_1_1_in_Opt1": {
+                "mzi": "MZI_1_1_in",
+                "port": "Opt1",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_in_Opt2": {
+                "mzi": "MZI_1_1_in",
+                "port": "Opt2",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_in_Opt3": {
+                "mzi": "MZI_1_1_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_in_Opt4": {
+                "mzi": "MZI_1_1_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_up_Opt1": {
+                "mzi": "MZI_1_1_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_up_Opt2": {
+                "mzi": "MZI_1_1_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_up_Opt3": {
+                "mzi": "MZI_1_1_up",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_up_Opt4": {
+                "mzi": "MZI_1_1_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_down_Opt1": {
+                "mzi": "MZI_1_1_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_down_Opt2": {
+                "mzi": "MZI_1_1_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_down_Opt3": {
+                "mzi": "MZI_1_1_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_1_down_Opt4": {
+                "mzi": "MZI_1_1_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_in_Opt1": {
+                "mzi": "MZI_1_2_in",
+                "port": "Opt1",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_in_Opt2": {
+                "mzi": "MZI_1_2_in",
+                "port": "Opt2",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_in_Opt3": {
+                "mzi": "MZI_1_2_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_in_Opt4": {
+                "mzi": "MZI_1_2_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_up_Opt1": {
+                "mzi": "MZI_1_2_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_up_Opt2": {
+                "mzi": "MZI_1_2_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_up_Opt3": {
+                "mzi": "MZI_1_2_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_up_Opt4": {
+                "mzi": "MZI_1_2_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_down_Opt1": {
+                "mzi": "MZI_1_2_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_down_Opt2": {
+                "mzi": "MZI_1_2_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_down_Opt3": {
+                "mzi": "MZI_1_2_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_2_down_Opt4": {
+                "mzi": "MZI_1_2_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_in_Opt1": {
+                "mzi": "MZI_1_3_in",
+                "port": "Opt1",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_in_Opt2": {
+                "mzi": "MZI_1_3_in",
+                "port": "Opt2",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_in_Opt3": {
+                "mzi": "MZI_1_3_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_in_Opt4": {
+                "mzi": "MZI_1_3_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_up_Opt1": {
+                "mzi": "MZI_1_3_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_up_Opt2": {
+                "mzi": "MZI_1_3_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_up_Opt3": {
+                "mzi": "MZI_1_3_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_up_Opt4": {
+                "mzi": "MZI_1_3_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_down_Opt1": {
+                "mzi": "MZI_1_3_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_down_Opt2": {
+                "mzi": "MZI_1_3_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_down_Opt3": {
+                "mzi": "MZI_1_3_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_3_down_Opt4": {
+                "mzi": "MZI_1_3_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_in_Opt1": {
+                "mzi": "MZI_1_4_in",
+                "port": "Opt1",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_in_Opt2": {
+                "mzi": "MZI_1_4_in",
+                "port": "Opt2",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_in_Opt3": {
+                "mzi": "MZI_1_4_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_in_Opt4": {
+                "mzi": "MZI_1_4_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_up_Opt1": {
+                "mzi": "MZI_1_4_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_up_Opt2": {
+                "mzi": "MZI_1_4_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_up_Opt3": {
+                "mzi": "MZI_1_4_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_up_Opt4": {
+                "mzi": "MZI_1_4_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_down_Opt1": {
+                "mzi": "MZI_1_4_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_down_Opt2": {
+                "mzi": "MZI_1_4_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_down_Opt3": {
+                "mzi": "MZI_1_4_down",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_1_4_down_Opt4": {
+                "mzi": "MZI_1_4_down",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_in_Opt1": {
+                "mzi": "MZI_2_1_in",
+                "port": "Opt1",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_in_Opt2": {
+                "mzi": "MZI_2_1_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_in_Opt3": {
+                "mzi": "MZI_2_1_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_in_Opt4": {
+                "mzi": "MZI_2_1_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_up_Opt1": {
+                "mzi": "MZI_2_1_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_up_Opt2": {
+                "mzi": "MZI_2_1_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_up_Opt3": {
+                "mzi": "MZI_2_1_up",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_up_Opt4": {
+                "mzi": "MZI_2_1_up",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_down_Opt1": {
+                "mzi": "MZI_2_1_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_down_Opt2": {
+                "mzi": "MZI_2_1_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_down_Opt3": {
+                "mzi": "MZI_2_1_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_1_down_Opt4": {
+                "mzi": "MZI_2_1_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_in_Opt1": {
+                "mzi": "MZI_2_2_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_in_Opt2": {
+                "mzi": "MZI_2_2_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_in_Opt3": {
+                "mzi": "MZI_2_2_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_in_Opt4": {
+                "mzi": "MZI_2_2_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_up_Opt1": {
+                "mzi": "MZI_2_2_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "BS",
+                "tpH_v": -3.725,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_up_Opt2": {
+                "mzi": "MZI_2_2_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "BS",
+                "tpH_v": -3.725,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_up_Opt3": {
+                "mzi": "MZI_2_2_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "BS",
+                "tpH_v": -3.725,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_up_Opt4": {
+                "mzi": "MZI_2_2_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "BS",
+                "tpH_v": -3.725,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_down_Opt1": {
+                "mzi": "MZI_2_2_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_down_Opt2": {
+                "mzi": "MZI_2_2_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_down_Opt3": {
+                "mzi": "MZI_2_2_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_2_down_Opt4": {
+                "mzi": "MZI_2_2_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_in_Opt1": {
+                "mzi": "MZI_2_3_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_in_Opt2": {
+                "mzi": "MZI_2_3_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_in_Opt3": {
+                "mzi": "MZI_2_3_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_in_Opt4": {
+                "mzi": "MZI_2_3_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_up_Opt1": {
+                "mzi": "MZI_2_3_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_up_Opt2": {
+                "mzi": "MZI_2_3_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_up_Opt3": {
+                "mzi": "MZI_2_3_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_up_Opt4": {
+                "mzi": "MZI_2_3_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_down_Opt1": {
+                "mzi": "MZI_2_3_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_down_Opt2": {
+                "mzi": "MZI_2_3_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_down_Opt3": {
+                "mzi": "MZI_2_3_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_3_down_Opt4": {
+                "mzi": "MZI_2_3_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_in_Opt1": {
+                "mzi": "MZI_2_4_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_in_Opt2": {
+                "mzi": "MZI_2_4_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_in_Opt3": {
+                "mzi": "MZI_2_4_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_in_Opt4": {
+                "mzi": "MZI_2_4_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_up_Opt1": {
+                "mzi": "MZI_2_4_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_up_Opt2": {
+                "mzi": "MZI_2_4_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_up_Opt3": {
+                "mzi": "MZI_2_4_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_up_Opt4": {
+                "mzi": "MZI_2_4_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_down_Opt1": {
+                "mzi": "MZI_2_4_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_down_Opt2": {
+                "mzi": "MZI_2_4_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_down_Opt3": {
+                "mzi": "MZI_2_4_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_2_4_down_Opt4": {
+                "mzi": "MZI_2_4_down",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_in_Opt1": {
+                "mzi": "MZI_3_1_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_in_Opt2": {
+                "mzi": "MZI_3_1_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_in_Opt3": {
+                "mzi": "MZI_3_1_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_in_Opt4": {
+                "mzi": "MZI_3_1_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_up_Opt1": {
+                "mzi": "MZI_3_1_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_up_Opt2": {
+                "mzi": "MZI_3_1_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_up_Opt3": {
+                "mzi": "MZI_3_1_up",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_up_Opt4": {
+                "mzi": "MZI_3_1_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_down_Opt1": {
+                "mzi": "MZI_3_1_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_down_Opt2": {
+                "mzi": "MZI_3_1_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_down_Opt3": {
+                "mzi": "MZI_3_1_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_1_down_Opt4": {
+                "mzi": "MZI_3_1_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_in_Opt1": {
+                "mzi": "MZI_3_2_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_in_Opt2": {
+                "mzi": "MZI_3_2_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_in_Opt3": {
+                "mzi": "MZI_3_2_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_in_Opt4": {
+                "mzi": "MZI_3_2_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_up_Opt1": {
+                "mzi": "MZI_3_2_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_up_Opt2": {
+                "mzi": "MZI_3_2_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_up_Opt3": {
+                "mzi": "MZI_3_2_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_up_Opt4": {
+                "mzi": "MZI_3_2_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_down_Opt1": {
+                "mzi": "MZI_3_2_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_down_Opt2": {
+                "mzi": "MZI_3_2_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_down_Opt3": {
+                "mzi": "MZI_3_2_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_2_down_Opt4": {
+                "mzi": "MZI_3_2_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_in_Opt1": {
+                "mzi": "MZI_3_3_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_in_Opt2": {
+                "mzi": "MZI_3_3_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_in_Opt3": {
+                "mzi": "MZI_3_3_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_in_Opt4": {
+                "mzi": "MZI_3_3_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_up_Opt1": {
+                "mzi": "MZI_3_3_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_up_Opt2": {
+                "mzi": "MZI_3_3_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_up_Opt3": {
+                "mzi": "MZI_3_3_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_up_Opt4": {
+                "mzi": "MZI_3_3_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_down_Opt1": {
+                "mzi": "MZI_3_3_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_down_Opt2": {
+                "mzi": "MZI_3_3_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_down_Opt3": {
+                "mzi": "MZI_3_3_down",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_3_down_Opt4": {
+                "mzi": "MZI_3_3_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_in_Opt1": {
+                "mzi": "MZI_3_4_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_in_Opt2": {
+                "mzi": "MZI_3_4_in",
+                "port": "Opt2",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_in_Opt3": {
+                "mzi": "MZI_3_4_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_in_Opt4": {
+                "mzi": "MZI_3_4_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_up_Opt1": {
+                "mzi": "MZI_3_4_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_up_Opt2": {
+                "mzi": "MZI_3_4_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_up_Opt3": {
+                "mzi": "MZI_3_4_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_up_Opt4": {
+                "mzi": "MZI_3_4_up",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_down_Opt1": {
+                "mzi": "MZI_3_4_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_down_Opt2": {
+                "mzi": "MZI_3_4_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_down_Opt3": {
+                "mzi": "MZI_3_4_down",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_3_4_down_Opt4": {
+                "mzi": "MZI_3_4_down",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_in_Opt1": {
+                "mzi": "MZI_4_1_in",
+                "port": "Opt1",
+                "is_open": true,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_in_Opt2": {
+                "mzi": "MZI_4_1_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_in_Opt3": {
+                "mzi": "MZI_4_1_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_in_Opt4": {
+                "mzi": "MZI_4_1_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "CS",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_up_Opt1": {
+                "mzi": "MZI_4_1_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "BS",
+                "tpH_v": -3.725,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_up_Opt2": {
+                "mzi": "MZI_4_1_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "BS",
+                "tpH_v": -3.725,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_up_Opt3": {
+                "mzi": "MZI_4_1_up",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "BS",
+                "tpH_v": -3.725,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_up_Opt4": {
+                "mzi": "MZI_4_1_up",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "BS",
+                "tpH_v": -3.725,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_down_Opt1": {
+                "mzi": "MZI_4_1_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_down_Opt2": {
+                "mzi": "MZI_4_1_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_down_Opt3": {
+                "mzi": "MZI_4_1_down",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_1_down_Opt4": {
+                "mzi": "MZI_4_1_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_in_Opt1": {
+                "mzi": "MZI_4_2_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_in_Opt2": {
+                "mzi": "MZI_4_2_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_in_Opt3": {
+                "mzi": "MZI_4_2_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_in_Opt4": {
+                "mzi": "MZI_4_2_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_up_Opt1": {
+                "mzi": "MZI_4_2_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_up_Opt2": {
+                "mzi": "MZI_4_2_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_up_Opt3": {
+                "mzi": "MZI_4_2_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_up_Opt4": {
+                "mzi": "MZI_4_2_up",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_down_Opt1": {
+                "mzi": "MZI_4_2_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_down_Opt2": {
+                "mzi": "MZI_4_2_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_down_Opt3": {
+                "mzi": "MZI_4_2_down",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_2_down_Opt4": {
+                "mzi": "MZI_4_2_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_in_Opt1": {
+                "mzi": "MZI_4_3_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_in_Opt2": {
+                "mzi": "MZI_4_3_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_in_Opt3": {
+                "mzi": "MZI_4_3_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_in_Opt4": {
+                "mzi": "MZI_4_3_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_up_Opt1": {
+                "mzi": "MZI_4_3_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_up_Opt2": {
+                "mzi": "MZI_4_3_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_up_Opt3": {
+                "mzi": "MZI_4_3_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_up_Opt4": {
+                "mzi": "MZI_4_3_up",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_down_Opt1": {
+                "mzi": "MZI_4_3_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_down_Opt2": {
+                "mzi": "MZI_4_3_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_down_Opt3": {
+                "mzi": "MZI_4_3_down",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_3_down_Opt4": {
+                "mzi": "MZI_4_3_down",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_in_Opt1": {
+                "mzi": "MZI_4_4_in",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_in_Opt2": {
+                "mzi": "MZI_4_4_in",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_in_Opt3": {
+                "mzi": "MZI_4_4_in",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_in_Opt4": {
+                "mzi": "MZI_4_4_in",
+                "port": "Opt4",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_up_Opt1": {
+                "mzi": "MZI_4_4_up",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_up_Opt2": {
+                "mzi": "MZI_4_4_up",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_up_Opt3": {
+                "mzi": "MZI_4_4_up",
+                "port": "Opt3",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_up_Opt4": {
+                "mzi": "MZI_4_4_up",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_down_Opt1": {
+                "mzi": "MZI_4_4_down",
+                "port": "Opt1",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_down_Opt2": {
+                "mzi": "MZI_4_4_down",
+                "port": "Opt2",
+                "is_open": false,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_down_Opt3": {
+                "mzi": "MZI_4_4_down",
+                "port": "Opt3",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            },
+            "MZI_4_4_down_Opt4": {
+                "mzi": "MZI_4_4_down",
+                "port": "Opt4",
+                "is_open": true,
+                "state": "AV",
+                "tpH_v": 0.0,
+                "btH_v": 0.0
+            }
+        },
+        "edges": {
+            "MZI_1_1_in_Opt1": [
+                {
+                    "target": "MZI_1_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_1_in_Opt2": [
+                {
+                    "target": "MZI_1_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_1_in_Opt3": [
+                {
+                    "target": "MZI_1_1_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_1_in_Opt4": [
+                {
+                    "target": "MZI_1_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_1_up_Opt1": [
+                {
+                    "target": "MZI_1_1_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_1_up_Opt2": [
+                {
+                    "target": "MZI_1_1_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_1_up_Opt3": [
+                {
+                    "target": "MZI_1_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_1_up_Opt4": [
+                {
+                    "target": "MZI_1_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_1_down_Opt1": [
+                {
+                    "target": "MZI_1_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_1_down_Opt2": [
+                {
+                    "target": "MZI_1_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_1_down_Opt3": [
+                {
+                    "target": "MZI_1_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_1_down_Opt4": [
+                {
+                    "target": "MZI_1_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_in_Opt1": [
+                {
+                    "target": "MZI_1_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_2_in_Opt2": [
+                {
+                    "target": "MZI_1_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_2_in_Opt3": [
+                {
+                    "target": "MZI_1_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_in_Opt4": [
+                {
+                    "target": "MZI_1_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_up_Opt1": [
+                {
+                    "target": "MZI_1_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_up_Opt2": [
+                {
+                    "target": "MZI_1_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_up_Opt3": [
+                {
+                    "target": "MZI_1_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_up_Opt4": [
+                {
+                    "target": "MZI_1_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_down_Opt1": [
+                {
+                    "target": "MZI_1_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_down_Opt2": [
+                {
+                    "target": "MZI_1_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_down_Opt3": [
+                {
+                    "target": "MZI_1_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_2_down_Opt4": [
+                {
+                    "target": "MZI_1_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_in_Opt1": [
+                {
+                    "target": "MZI_1_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_3_in_Opt2": [
+                {
+                    "target": "MZI_1_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_3_in_Opt3": [
+                {
+                    "target": "MZI_1_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_in_Opt4": [
+                {
+                    "target": "MZI_1_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_up_Opt1": [
+                {
+                    "target": "MZI_1_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_up_Opt2": [
+                {
+                    "target": "MZI_1_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_up_Opt3": [
+                {
+                    "target": "MZI_1_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_up_Opt4": [
+                {
+                    "target": "MZI_1_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_down_Opt1": [
+                {
+                    "target": "MZI_1_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_down_Opt2": [
+                {
+                    "target": "MZI_1_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_down_Opt3": [
+                {
+                    "target": "MZI_1_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_3_down_Opt4": [
+                {
+                    "target": "MZI_1_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_in_Opt1": [
+                {
+                    "target": "MZI_1_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_4_in_Opt2": [
+                {
+                    "target": "MZI_1_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_4_in_Opt3": [
+                {
+                    "target": "MZI_1_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_in_Opt4": [
+                {
+                    "target": "MZI_1_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_up_Opt1": [
+                {
+                    "target": "MZI_1_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_up_Opt2": [
+                {
+                    "target": "MZI_1_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_up_Opt3": [
+                {
+                    "target": "MZI_1_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_up_Opt4": [
+                {
+                    "target": "MZI_1_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_down_Opt1": [
+                {
+                    "target": "MZI_1_4_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_down_Opt2": [
+                {
+                    "target": "MZI_1_4_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_1_4_down_Opt3": [
+                {
+                    "target": "MZI_1_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_1_4_down_Opt4": [
+                {
+                    "target": "MZI_1_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_1_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_2_1_in_Opt1": [
+                {
+                    "target": "MZI_2_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_2_1_in_Opt2": [
+                {
+                    "target": "MZI_2_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_1_in_Opt3": [
+                {
+                    "target": "MZI_2_1_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_1_in_Opt4": [
+                {
+                    "target": "MZI_2_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_1_up_Opt1": [
+                {
+                    "target": "MZI_2_1_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_1_up_Opt2": [
+                {
+                    "target": "MZI_2_1_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_1_up_Opt3": [
+                {
+                    "target": "MZI_2_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_2_1_up_Opt4": [
+                {
+                    "target": "MZI_2_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_2_1_down_Opt1": [
+                {
+                    "target": "MZI_2_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_1_down_Opt2": [
+                {
+                    "target": "MZI_2_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_1_down_Opt3": [
+                {
+                    "target": "MZI_2_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_1_down_Opt4": [
+                {
+                    "target": "MZI_2_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_in_Opt1": [
+                {
+                    "target": "MZI_2_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_in_Opt2": [
+                {
+                    "target": "MZI_2_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_in_Opt3": [
+                {
+                    "target": "MZI_2_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_in_Opt4": [
+                {
+                    "target": "MZI_2_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_up_Opt1": [
+                {
+                    "target": "MZI_2_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_up_Opt2": [
+                {
+                    "target": "MZI_2_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_up_Opt3": [
+                {
+                    "target": "MZI_2_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_up_Opt4": [
+                {
+                    "target": "MZI_2_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_down_Opt1": [
+                {
+                    "target": "MZI_2_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_down_Opt2": [
+                {
+                    "target": "MZI_2_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_down_Opt3": [
+                {
+                    "target": "MZI_2_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_2_down_Opt4": [
+                {
+                    "target": "MZI_2_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_in_Opt1": [
+                {
+                    "target": "MZI_2_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_in_Opt2": [
+                {
+                    "target": "MZI_2_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_in_Opt3": [
+                {
+                    "target": "MZI_2_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_in_Opt4": [
+                {
+                    "target": "MZI_2_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_up_Opt1": [
+                {
+                    "target": "MZI_2_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_up_Opt2": [
+                {
+                    "target": "MZI_2_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_up_Opt3": [
+                {
+                    "target": "MZI_2_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_up_Opt4": [
+                {
+                    "target": "MZI_2_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_down_Opt1": [
+                {
+                    "target": "MZI_2_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_down_Opt2": [
+                {
+                    "target": "MZI_2_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_down_Opt3": [
+                {
+                    "target": "MZI_2_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_3_down_Opt4": [
+                {
+                    "target": "MZI_2_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_in_Opt1": [
+                {
+                    "target": "MZI_2_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_in_Opt2": [
+                {
+                    "target": "MZI_2_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_1_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_in_Opt3": [
+                {
+                    "target": "MZI_2_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_in_Opt4": [
+                {
+                    "target": "MZI_2_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_2_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_up_Opt1": [
+                {
+                    "target": "MZI_2_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_up_Opt2": [
+                {
+                    "target": "MZI_2_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_up_Opt3": [
+                {
+                    "target": "MZI_2_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_up_Opt4": [
+                {
+                    "target": "MZI_2_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_down_Opt1": [
+                {
+                    "target": "MZI_2_4_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_down_Opt2": [
+                {
+                    "target": "MZI_2_4_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_down_Opt3": [
+                {
+                    "target": "MZI_2_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_2_4_down_Opt4": [
+                {
+                    "target": "MZI_2_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_3_1_in_Opt1": [
+                {
+                    "target": "MZI_3_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_in_Opt2": [
+                {
+                    "target": "MZI_3_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_in_Opt3": [
+                {
+                    "target": "MZI_3_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_in_Opt4": [
+                {
+                    "target": "MZI_3_1_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_up_Opt1": [
+                {
+                    "target": "MZI_3_1_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_up_Opt2": [
+                {
+                    "target": "MZI_3_1_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_up_Opt3": [
+                {
+                    "target": "MZI_3_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_3_1_up_Opt4": [
+                {
+                    "target": "MZI_3_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_down_Opt1": [
+                {
+                    "target": "MZI_3_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_down_Opt2": [
+                {
+                    "target": "MZI_3_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_down_Opt3": [
+                {
+                    "target": "MZI_3_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_1_down_Opt4": [
+                {
+                    "target": "MZI_3_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_in_Opt1": [
+                {
+                    "target": "MZI_3_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_in_Opt2": [
+                {
+                    "target": "MZI_3_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_in_Opt3": [
+                {
+                    "target": "MZI_3_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_in_Opt4": [
+                {
+                    "target": "MZI_3_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_up_Opt1": [
+                {
+                    "target": "MZI_3_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_up_Opt2": [
+                {
+                    "target": "MZI_3_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_up_Opt3": [
+                {
+                    "target": "MZI_3_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_up_Opt4": [
+                {
+                    "target": "MZI_3_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_down_Opt1": [
+                {
+                    "target": "MZI_3_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_down_Opt2": [
+                {
+                    "target": "MZI_3_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_down_Opt3": [
+                {
+                    "target": "MZI_3_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_2_down_Opt4": [
+                {
+                    "target": "MZI_3_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_in_Opt1": [
+                {
+                    "target": "MZI_3_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_in_Opt2": [
+                {
+                    "target": "MZI_3_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_in_Opt3": [
+                {
+                    "target": "MZI_3_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_in_Opt4": [
+                {
+                    "target": "MZI_3_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_up_Opt1": [
+                {
+                    "target": "MZI_3_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_up_Opt2": [
+                {
+                    "target": "MZI_3_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_up_Opt3": [
+                {
+                    "target": "MZI_3_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_up_Opt4": [
+                {
+                    "target": "MZI_3_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_down_Opt1": [
+                {
+                    "target": "MZI_3_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_down_Opt2": [
+                {
+                    "target": "MZI_3_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_down_Opt3": [
+                {
+                    "target": "MZI_3_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_3_down_Opt4": [
+                {
+                    "target": "MZI_3_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_in_Opt1": [
+                {
+                    "target": "MZI_3_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_2_4_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_in_Opt2": [
+                {
+                    "target": "MZI_3_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_3_4_in_Opt3": [
+                {
+                    "target": "MZI_3_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_in_Opt4": [
+                {
+                    "target": "MZI_3_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_up_Opt1": [
+                {
+                    "target": "MZI_3_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_up_Opt2": [
+                {
+                    "target": "MZI_3_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_up_Opt3": [
+                {
+                    "target": "MZI_3_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_up_Opt4": [
+                {
+                    "target": "MZI_3_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_down_Opt1": [
+                {
+                    "target": "MZI_3_4_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_down_Opt2": [
+                {
+                    "target": "MZI_3_4_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_3_4_down_Opt3": [
+                {
+                    "target": "MZI_3_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_3_4_down_Opt4": [
+                {
+                    "target": "MZI_3_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_3_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_1_in_Opt1": [
+                {
+                    "target": "MZI_4_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_1_in_Opt2": [
+                {
+                    "target": "MZI_4_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_1_in_Opt3": [
+                {
+                    "target": "MZI_4_1_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_1_in_Opt4": [
+                {
+                    "target": "MZI_4_1_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_1_up_Opt1": [
+                {
+                    "target": "MZI_4_1_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_1_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_1_up_Opt2": [
+                {
+                    "target": "MZI_4_1_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_1_up_Opt3": [
+                {
+                    "target": "MZI_4_1_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                }
+            ],
+            "MZI_4_1_up_Opt4": [
+                {
+                    "target": "MZI_4_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                }
+            ],
+            "MZI_4_1_down_Opt1": [
+                {
+                    "target": "MZI_4_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_1_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_1_down_Opt2": [
+                {
+                    "target": "MZI_4_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_1_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_1_down_Opt3": [
+                {
+                    "target": "MZI_4_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_1_down_Opt4": [
+                {
+                    "target": "MZI_4_1_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_1_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_in_Opt1": [
+                {
+                    "target": "MZI_4_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_1_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_in_Opt2": [
+                {
+                    "target": "MZI_4_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_in_Opt3": [
+                {
+                    "target": "MZI_4_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_in_Opt4": [
+                {
+                    "target": "MZI_4_2_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_up_Opt1": [
+                {
+                    "target": "MZI_4_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_up_Opt2": [
+                {
+                    "target": "MZI_4_2_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_up_Opt3": [
+                {
+                    "target": "MZI_4_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_1_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_up_Opt4": [
+                {
+                    "target": "MZI_4_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_2_down_Opt1": [
+                {
+                    "target": "MZI_4_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_down_Opt2": [
+                {
+                    "target": "MZI_4_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_2_down_Opt3": [
+                {
+                    "target": "MZI_4_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_2_down_Opt4": [
+                {
+                    "target": "MZI_4_2_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_2_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_in_Opt1": [
+                {
+                    "target": "MZI_4_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_2_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_in_Opt2": [
+                {
+                    "target": "MZI_4_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_in_Opt3": [
+                {
+                    "target": "MZI_4_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_in_Opt4": [
+                {
+                    "target": "MZI_4_3_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_up_Opt1": [
+                {
+                    "target": "MZI_4_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_up_Opt2": [
+                {
+                    "target": "MZI_4_3_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_up_Opt3": [
+                {
+                    "target": "MZI_4_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_2_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_up_Opt4": [
+                {
+                    "target": "MZI_4_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_3_down_Opt1": [
+                {
+                    "target": "MZI_4_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_down_Opt2": [
+                {
+                    "target": "MZI_4_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_3_down_Opt3": [
+                {
+                    "target": "MZI_4_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_3_down_Opt4": [
+                {
+                    "target": "MZI_4_3_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_3_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_in_Opt1": [
+                {
+                    "target": "MZI_4_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_3_down_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_in_Opt2": [
+                {
+                    "target": "MZI_4_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_3_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_in_Opt3": [
+                {
+                    "target": "MZI_4_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_in_Opt4": [
+                {
+                    "target": "MZI_4_4_in_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_in_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_up_Opt1": [
+                {
+                    "target": "MZI_4_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_in_Opt3",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_up_Opt2": [
+                {
+                    "target": "MZI_4_4_up_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_up_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_up_Opt3": [
+                {
+                    "target": "MZI_4_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_3_down_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_up_Opt4": [
+                {
+                    "target": "MZI_4_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_up_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_4_down_Opt1": [
+                {
+                    "target": "MZI_4_4_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_up_Opt2",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_down_Opt2": [
+                {
+                    "target": "MZI_4_4_down_Opt4",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_down_Opt3",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                },
+                {
+                    "target": "MZI_4_4_in_Opt4",
+                    "weight": 1.0,
+                    "type": "waveguide_link"
+                }
+            ],
+            "MZI_4_4_down_Opt3": [
+                {
+                    "target": "MZI_4_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ],
+            "MZI_4_4_down_Opt4": [
+                {
+                    "target": "MZI_4_4_down_Opt2",
+                    "weight": 1.0,
+                    "type": "mzi_bar"
+                },
+                {
+                    "target": "MZI_4_4_down_Opt1",
+                    "weight": 1.0,
+                    "type": "mzi_cross"
+                }
+            ]
+        }
+    },
+    "tbus": {
+        "MZI_1_1_in": {
+            "m": 1,
+            "n": 1,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_1_in_tpH",
+            "btH_pin": "PORT_1_1_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_1_in_Opt1",
+                "Opt2": "MZI_1_1_in_Opt2",
+                "Opt3": "MZI_1_1_in_Opt3",
+                "Opt4": "MZI_1_1_in_Opt4"
+            },
+            "open_ports": [
+                "MZI_1_1_in_Opt1",
+                "MZI_1_1_in_Opt2"
+            ],
+            "port_connections": {
+                "MZI_1_1_in_Opt1": "OPEN",
+                "MZI_1_1_in_Opt2": "OPEN",
+                "MZI_1_1_in_Opt3": "MZI_1_1_up_Opt1",
+                "MZI_1_1_in_Opt4": "MZI_1_1_down_Opt2"
+            }
+        },
+        "MZI_1_1_up": {
+            "m": 1,
+            "n": 1,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_1_up_tpH",
+            "btH_pin": "PORT_1_1_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_1_up_Opt1",
+                "Opt2": "MZI_1_1_up_Opt2",
+                "Opt3": "MZI_1_1_up_Opt3",
+                "Opt4": "MZI_1_1_up_Opt4"
+            },
+            "open_ports": [
+                "MZI_1_1_up_Opt3"
+            ],
+            "port_connections": {
+                "MZI_1_1_up_Opt1": "MZI_1_1_in_Opt3",
+                "MZI_1_1_up_Opt2": "MZI_1_1_down_Opt1",
+                "MZI_1_1_up_Opt3": "OPEN",
+                "MZI_1_1_up_Opt4": "MZI_2_1_in_Opt2"
+            }
+        },
+        "MZI_1_1_down": {
+            "m": 1,
+            "n": 1,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_1_down_tpH",
+            "btH_pin": "PORT_1_1_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_1_down_Opt1",
+                "Opt2": "MZI_1_1_down_Opt2",
+                "Opt3": "MZI_1_1_down_Opt3",
+                "Opt4": "MZI_1_1_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_1_1_down_Opt1": "MZI_1_1_up_Opt2",
+                "MZI_1_1_down_Opt2": "MZI_1_1_in_Opt4",
+                "MZI_1_1_down_Opt3": "MZI_2_2_in_Opt1",
+                "MZI_1_1_down_Opt4": "MZI_1_2_up_Opt3"
+            }
+        },
+        "MZI_1_2_in": {
+            "m": 1,
+            "n": 2,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_2_in_tpH",
+            "btH_pin": "PORT_1_2_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_2_in_Opt1",
+                "Opt2": "MZI_1_2_in_Opt2",
+                "Opt3": "MZI_1_2_in_Opt3",
+                "Opt4": "MZI_1_2_in_Opt4"
+            },
+            "open_ports": [
+                "MZI_1_2_in_Opt1",
+                "MZI_1_2_in_Opt2"
+            ],
+            "port_connections": {
+                "MZI_1_2_in_Opt1": "OPEN",
+                "MZI_1_2_in_Opt2": "OPEN",
+                "MZI_1_2_in_Opt3": "MZI_1_2_up_Opt1",
+                "MZI_1_2_in_Opt4": "MZI_1_2_down_Opt2"
+            }
+        },
+        "MZI_1_2_up": {
+            "m": 1,
+            "n": 2,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_2_up_tpH",
+            "btH_pin": "PORT_1_2_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_2_up_Opt1",
+                "Opt2": "MZI_1_2_up_Opt2",
+                "Opt3": "MZI_1_2_up_Opt3",
+                "Opt4": "MZI_1_2_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_1_2_up_Opt1": "MZI_1_2_in_Opt3",
+                "MZI_1_2_up_Opt2": "MZI_1_2_down_Opt1",
+                "MZI_1_2_up_Opt3": "MZI_1_1_down_Opt4",
+                "MZI_1_2_up_Opt4": "MZI_2_2_in_Opt2"
+            }
+        },
+        "MZI_1_2_down": {
+            "m": 1,
+            "n": 2,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_2_down_tpH",
+            "btH_pin": "PORT_1_2_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_2_down_Opt1",
+                "Opt2": "MZI_1_2_down_Opt2",
+                "Opt3": "MZI_1_2_down_Opt3",
+                "Opt4": "MZI_1_2_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_1_2_down_Opt1": "MZI_1_2_up_Opt2",
+                "MZI_1_2_down_Opt2": "MZI_1_2_in_Opt4",
+                "MZI_1_2_down_Opt3": "MZI_2_3_in_Opt1",
+                "MZI_1_2_down_Opt4": "MZI_1_3_up_Opt3"
+            }
+        },
+        "MZI_1_3_in": {
+            "m": 1,
+            "n": 3,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_3_in_tpH",
+            "btH_pin": "PORT_1_3_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_3_in_Opt1",
+                "Opt2": "MZI_1_3_in_Opt2",
+                "Opt3": "MZI_1_3_in_Opt3",
+                "Opt4": "MZI_1_3_in_Opt4"
+            },
+            "open_ports": [
+                "MZI_1_3_in_Opt1",
+                "MZI_1_3_in_Opt2"
+            ],
+            "port_connections": {
+                "MZI_1_3_in_Opt1": "OPEN",
+                "MZI_1_3_in_Opt2": "OPEN",
+                "MZI_1_3_in_Opt3": "MZI_1_3_up_Opt1",
+                "MZI_1_3_in_Opt4": "MZI_1_3_down_Opt2"
+            }
+        },
+        "MZI_1_3_up": {
+            "m": 1,
+            "n": 3,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_3_up_tpH",
+            "btH_pin": "PORT_1_3_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_3_up_Opt1",
+                "Opt2": "MZI_1_3_up_Opt2",
+                "Opt3": "MZI_1_3_up_Opt3",
+                "Opt4": "MZI_1_3_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_1_3_up_Opt1": "MZI_1_3_in_Opt3",
+                "MZI_1_3_up_Opt2": "MZI_1_3_down_Opt1",
+                "MZI_1_3_up_Opt3": "MZI_1_2_down_Opt4",
+                "MZI_1_3_up_Opt4": "MZI_2_3_in_Opt2"
+            }
+        },
+        "MZI_1_3_down": {
+            "m": 1,
+            "n": 3,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_3_down_tpH",
+            "btH_pin": "PORT_1_3_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_3_down_Opt1",
+                "Opt2": "MZI_1_3_down_Opt2",
+                "Opt3": "MZI_1_3_down_Opt3",
+                "Opt4": "MZI_1_3_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_1_3_down_Opt1": "MZI_1_3_up_Opt2",
+                "MZI_1_3_down_Opt2": "MZI_1_3_in_Opt4",
+                "MZI_1_3_down_Opt3": "MZI_2_4_in_Opt1",
+                "MZI_1_3_down_Opt4": "MZI_1_4_up_Opt3"
+            }
+        },
+        "MZI_1_4_in": {
+            "m": 1,
+            "n": 4,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_4_in_tpH",
+            "btH_pin": "PORT_1_4_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_4_in_Opt1",
+                "Opt2": "MZI_1_4_in_Opt2",
+                "Opt3": "MZI_1_4_in_Opt3",
+                "Opt4": "MZI_1_4_in_Opt4"
+            },
+            "open_ports": [
+                "MZI_1_4_in_Opt1",
+                "MZI_1_4_in_Opt2"
+            ],
+            "port_connections": {
+                "MZI_1_4_in_Opt1": "OPEN",
+                "MZI_1_4_in_Opt2": "OPEN",
+                "MZI_1_4_in_Opt3": "MZI_1_4_up_Opt1",
+                "MZI_1_4_in_Opt4": "MZI_1_4_down_Opt2"
+            }
+        },
+        "MZI_1_4_up": {
+            "m": 1,
+            "n": 4,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_4_up_tpH",
+            "btH_pin": "PORT_1_4_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_4_up_Opt1",
+                "Opt2": "MZI_1_4_up_Opt2",
+                "Opt3": "MZI_1_4_up_Opt3",
+                "Opt4": "MZI_1_4_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_1_4_up_Opt1": "MZI_1_4_in_Opt3",
+                "MZI_1_4_up_Opt2": "MZI_1_4_down_Opt1",
+                "MZI_1_4_up_Opt3": "MZI_1_3_down_Opt4",
+                "MZI_1_4_up_Opt4": "MZI_2_4_in_Opt2"
+            }
+        },
+        "MZI_1_4_down": {
+            "m": 1,
+            "n": 4,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_1_4_down_tpH",
+            "btH_pin": "PORT_1_4_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_1_4_down_Opt1",
+                "Opt2": "MZI_1_4_down_Opt2",
+                "Opt3": "MZI_1_4_down_Opt3",
+                "Opt4": "MZI_1_4_down_Opt4"
+            },
+            "open_ports": [
+                "MZI_1_4_down_Opt3",
+                "MZI_1_4_down_Opt4"
+            ],
+            "port_connections": {
+                "MZI_1_4_down_Opt1": "MZI_1_4_up_Opt2",
+                "MZI_1_4_down_Opt2": "MZI_1_4_in_Opt4",
+                "MZI_1_4_down_Opt3": "OPEN",
+                "MZI_1_4_down_Opt4": "OPEN"
+            }
+        },
+        "MZI_2_1_in": {
+            "m": 2,
+            "n": 1,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_1_in_tpH",
+            "btH_pin": "PORT_2_1_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_1_in_Opt1",
+                "Opt2": "MZI_2_1_in_Opt2",
+                "Opt3": "MZI_2_1_in_Opt3",
+                "Opt4": "MZI_2_1_in_Opt4"
+            },
+            "open_ports": [
+                "MZI_2_1_in_Opt1"
+            ],
+            "port_connections": {
+                "MZI_2_1_in_Opt1": "OPEN",
+                "MZI_2_1_in_Opt2": "MZI_1_1_up_Opt4",
+                "MZI_2_1_in_Opt3": "MZI_2_1_up_Opt1",
+                "MZI_2_1_in_Opt4": "MZI_2_1_down_Opt2"
+            }
+        },
+        "MZI_2_1_up": {
+            "m": 2,
+            "n": 1,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_1_up_tpH",
+            "btH_pin": "PORT_2_1_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_1_up_Opt1",
+                "Opt2": "MZI_2_1_up_Opt2",
+                "Opt3": "MZI_2_1_up_Opt3",
+                "Opt4": "MZI_2_1_up_Opt4"
+            },
+            "open_ports": [
+                "MZI_2_1_up_Opt3",
+                "MZI_2_1_up_Opt4"
+            ],
+            "port_connections": {
+                "MZI_2_1_up_Opt1": "MZI_2_1_in_Opt3",
+                "MZI_2_1_up_Opt2": "MZI_2_1_down_Opt1",
+                "MZI_2_1_up_Opt3": "OPEN",
+                "MZI_2_1_up_Opt4": "OPEN"
+            }
+        },
+        "MZI_2_1_down": {
+            "m": 2,
+            "n": 1,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_1_down_tpH",
+            "btH_pin": "PORT_2_1_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_1_down_Opt1",
+                "Opt2": "MZI_2_1_down_Opt2",
+                "Opt3": "MZI_2_1_down_Opt3",
+                "Opt4": "MZI_2_1_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_1_down_Opt1": "MZI_2_1_up_Opt2",
+                "MZI_2_1_down_Opt2": "MZI_2_1_in_Opt4",
+                "MZI_2_1_down_Opt3": "MZI_3_1_in_Opt1",
+                "MZI_2_1_down_Opt4": "MZI_2_2_up_Opt3"
+            }
+        },
+        "MZI_2_2_in": {
+            "m": 2,
+            "n": 2,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_2_in_tpH",
+            "btH_pin": "PORT_2_2_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_2_in_Opt1",
+                "Opt2": "MZI_2_2_in_Opt2",
+                "Opt3": "MZI_2_2_in_Opt3",
+                "Opt4": "MZI_2_2_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_2_in_Opt1": "MZI_1_1_down_Opt3",
+                "MZI_2_2_in_Opt2": "MZI_1_2_up_Opt4",
+                "MZI_2_2_in_Opt3": "MZI_2_2_up_Opt1",
+                "MZI_2_2_in_Opt4": "MZI_2_2_down_Opt2"
+            }
+        },
+        "MZI_2_2_up": {
+            "m": 2,
+            "n": 2,
+            "dir": "up",
+            "state": "BS",
+            "tpH_v": -3.725,
+            "tpH_p": 3.141592653589793,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_2_up_tpH",
+            "btH_pin": "PORT_2_2_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_2_up_Opt1",
+                "Opt2": "MZI_2_2_up_Opt2",
+                "Opt3": "MZI_2_2_up_Opt3",
+                "Opt4": "MZI_2_2_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_2_up_Opt1": "MZI_2_2_in_Opt3",
+                "MZI_2_2_up_Opt2": "MZI_2_2_down_Opt1",
+                "MZI_2_2_up_Opt3": "MZI_2_1_down_Opt4",
+                "MZI_2_2_up_Opt4": "MZI_3_1_in_Opt2"
+            }
+        },
+        "MZI_2_2_down": {
+            "m": 2,
+            "n": 2,
+            "dir": "down",
+            "state": "CS",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_2_down_tpH",
+            "btH_pin": "PORT_2_2_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_2_down_Opt1",
+                "Opt2": "MZI_2_2_down_Opt2",
+                "Opt3": "MZI_2_2_down_Opt3",
+                "Opt4": "MZI_2_2_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_2_down_Opt1": "MZI_2_2_up_Opt2",
+                "MZI_2_2_down_Opt2": "MZI_2_2_in_Opt4",
+                "MZI_2_2_down_Opt3": "MZI_3_2_in_Opt1",
+                "MZI_2_2_down_Opt4": "MZI_2_3_up_Opt3"
+            }
+        },
+        "MZI_2_3_in": {
+            "m": 2,
+            "n": 3,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_3_in_tpH",
+            "btH_pin": "PORT_2_3_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_3_in_Opt1",
+                "Opt2": "MZI_2_3_in_Opt2",
+                "Opt3": "MZI_2_3_in_Opt3",
+                "Opt4": "MZI_2_3_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_3_in_Opt1": "MZI_1_2_down_Opt3",
+                "MZI_2_3_in_Opt2": "MZI_1_3_up_Opt4",
+                "MZI_2_3_in_Opt3": "MZI_2_3_up_Opt1",
+                "MZI_2_3_in_Opt4": "MZI_2_3_down_Opt2"
+            }
+        },
+        "MZI_2_3_up": {
+            "m": 2,
+            "n": 3,
+            "dir": "up",
+            "state": "CS",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_3_up_tpH",
+            "btH_pin": "PORT_2_3_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_3_up_Opt1",
+                "Opt2": "MZI_2_3_up_Opt2",
+                "Opt3": "MZI_2_3_up_Opt3",
+                "Opt4": "MZI_2_3_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_3_up_Opt1": "MZI_2_3_in_Opt3",
+                "MZI_2_3_up_Opt2": "MZI_2_3_down_Opt1",
+                "MZI_2_3_up_Opt3": "MZI_2_2_down_Opt4",
+                "MZI_2_3_up_Opt4": "MZI_3_2_in_Opt2"
+            }
+        },
+        "MZI_2_3_down": {
+            "m": 2,
+            "n": 3,
+            "dir": "down",
+            "state": "CS",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_3_down_tpH",
+            "btH_pin": "PORT_2_3_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_3_down_Opt1",
+                "Opt2": "MZI_2_3_down_Opt2",
+                "Opt3": "MZI_2_3_down_Opt3",
+                "Opt4": "MZI_2_3_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_3_down_Opt1": "MZI_2_3_up_Opt2",
+                "MZI_2_3_down_Opt2": "MZI_2_3_in_Opt4",
+                "MZI_2_3_down_Opt3": "MZI_3_3_in_Opt1",
+                "MZI_2_3_down_Opt4": "MZI_2_4_up_Opt3"
+            }
+        },
+        "MZI_2_4_in": {
+            "m": 2,
+            "n": 4,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_4_in_tpH",
+            "btH_pin": "PORT_2_4_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_4_in_Opt1",
+                "Opt2": "MZI_2_4_in_Opt2",
+                "Opt3": "MZI_2_4_in_Opt3",
+                "Opt4": "MZI_2_4_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_4_in_Opt1": "MZI_1_3_down_Opt3",
+                "MZI_2_4_in_Opt2": "MZI_1_4_up_Opt4",
+                "MZI_2_4_in_Opt3": "MZI_2_4_up_Opt1",
+                "MZI_2_4_in_Opt4": "MZI_2_4_down_Opt2"
+            }
+        },
+        "MZI_2_4_up": {
+            "m": 2,
+            "n": 4,
+            "dir": "up",
+            "state": "CS",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_4_up_tpH",
+            "btH_pin": "PORT_2_4_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_4_up_Opt1",
+                "Opt2": "MZI_2_4_up_Opt2",
+                "Opt3": "MZI_2_4_up_Opt3",
+                "Opt4": "MZI_2_4_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_2_4_up_Opt1": "MZI_2_4_in_Opt3",
+                "MZI_2_4_up_Opt2": "MZI_2_4_down_Opt1",
+                "MZI_2_4_up_Opt3": "MZI_2_3_down_Opt4",
+                "MZI_2_4_up_Opt4": "MZI_3_3_in_Opt2"
+            }
+        },
+        "MZI_2_4_down": {
+            "m": 2,
+            "n": 4,
+            "dir": "down",
+            "state": "CS",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_2_4_down_tpH",
+            "btH_pin": "PORT_2_4_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_2_4_down_Opt1",
+                "Opt2": "MZI_2_4_down_Opt2",
+                "Opt3": "MZI_2_4_down_Opt3",
+                "Opt4": "MZI_2_4_down_Opt4"
+            },
+            "open_ports": [
+                "MZI_2_4_down_Opt4"
+            ],
+            "port_connections": {
+                "MZI_2_4_down_Opt1": "MZI_2_4_up_Opt2",
+                "MZI_2_4_down_Opt2": "MZI_2_4_in_Opt4",
+                "MZI_2_4_down_Opt3": "MZI_3_4_in_Opt1",
+                "MZI_2_4_down_Opt4": "OPEN"
+            }
+        },
+        "MZI_3_1_in": {
+            "m": 3,
+            "n": 1,
+            "dir": "in",
+            "state": "CS",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_1_in_tpH",
+            "btH_pin": "PORT_3_1_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_1_in_Opt1",
+                "Opt2": "MZI_3_1_in_Opt2",
+                "Opt3": "MZI_3_1_in_Opt3",
+                "Opt4": "MZI_3_1_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_1_in_Opt1": "MZI_2_1_down_Opt3",
+                "MZI_3_1_in_Opt2": "MZI_2_2_up_Opt4",
+                "MZI_3_1_in_Opt3": "MZI_3_1_up_Opt1",
+                "MZI_3_1_in_Opt4": "MZI_3_1_down_Opt2"
+            }
+        },
+        "MZI_3_1_up": {
+            "m": 3,
+            "n": 1,
+            "dir": "up",
+            "state": "CS",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_1_up_tpH",
+            "btH_pin": "PORT_3_1_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_1_up_Opt1",
+                "Opt2": "MZI_3_1_up_Opt2",
+                "Opt3": "MZI_3_1_up_Opt3",
+                "Opt4": "MZI_3_1_up_Opt4"
+            },
+            "open_ports": [
+                "MZI_3_1_up_Opt3"
+            ],
+            "port_connections": {
+                "MZI_3_1_up_Opt1": "MZI_3_1_in_Opt3",
+                "MZI_3_1_up_Opt2": "MZI_3_1_down_Opt1",
+                "MZI_3_1_up_Opt3": "OPEN",
+                "MZI_3_1_up_Opt4": "MZI_4_1_in_Opt2"
+            }
+        },
+        "MZI_3_1_down": {
+            "m": 3,
+            "n": 1,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_1_down_tpH",
+            "btH_pin": "PORT_3_1_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_1_down_Opt1",
+                "Opt2": "MZI_3_1_down_Opt2",
+                "Opt3": "MZI_3_1_down_Opt3",
+                "Opt4": "MZI_3_1_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_1_down_Opt1": "MZI_3_1_up_Opt2",
+                "MZI_3_1_down_Opt2": "MZI_3_1_in_Opt4",
+                "MZI_3_1_down_Opt3": "MZI_4_2_in_Opt1",
+                "MZI_3_1_down_Opt4": "MZI_3_2_up_Opt3"
+            }
+        },
+        "MZI_3_2_in": {
+            "m": 3,
+            "n": 2,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_2_in_tpH",
+            "btH_pin": "PORT_3_2_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_2_in_Opt1",
+                "Opt2": "MZI_3_2_in_Opt2",
+                "Opt3": "MZI_3_2_in_Opt3",
+                "Opt4": "MZI_3_2_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_2_in_Opt1": "MZI_2_2_down_Opt3",
+                "MZI_3_2_in_Opt2": "MZI_2_3_up_Opt4",
+                "MZI_3_2_in_Opt3": "MZI_3_2_up_Opt1",
+                "MZI_3_2_in_Opt4": "MZI_3_2_down_Opt2"
+            }
+        },
+        "MZI_3_2_up": {
+            "m": 3,
+            "n": 2,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_2_up_tpH",
+            "btH_pin": "PORT_3_2_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_2_up_Opt1",
+                "Opt2": "MZI_3_2_up_Opt2",
+                "Opt3": "MZI_3_2_up_Opt3",
+                "Opt4": "MZI_3_2_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_2_up_Opt1": "MZI_3_2_in_Opt3",
+                "MZI_3_2_up_Opt2": "MZI_3_2_down_Opt1",
+                "MZI_3_2_up_Opt3": "MZI_3_1_down_Opt4",
+                "MZI_3_2_up_Opt4": "MZI_4_2_in_Opt2"
+            }
+        },
+        "MZI_3_2_down": {
+            "m": 3,
+            "n": 2,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_2_down_tpH",
+            "btH_pin": "PORT_3_2_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_2_down_Opt1",
+                "Opt2": "MZI_3_2_down_Opt2",
+                "Opt3": "MZI_3_2_down_Opt3",
+                "Opt4": "MZI_3_2_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_2_down_Opt1": "MZI_3_2_up_Opt2",
+                "MZI_3_2_down_Opt2": "MZI_3_2_in_Opt4",
+                "MZI_3_2_down_Opt3": "MZI_4_3_in_Opt1",
+                "MZI_3_2_down_Opt4": "MZI_3_3_up_Opt3"
+            }
+        },
+        "MZI_3_3_in": {
+            "m": 3,
+            "n": 3,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_3_in_tpH",
+            "btH_pin": "PORT_3_3_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_3_in_Opt1",
+                "Opt2": "MZI_3_3_in_Opt2",
+                "Opt3": "MZI_3_3_in_Opt3",
+                "Opt4": "MZI_3_3_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_3_in_Opt1": "MZI_2_3_down_Opt3",
+                "MZI_3_3_in_Opt2": "MZI_2_4_up_Opt4",
+                "MZI_3_3_in_Opt3": "MZI_3_3_up_Opt1",
+                "MZI_3_3_in_Opt4": "MZI_3_3_down_Opt2"
+            }
+        },
+        "MZI_3_3_up": {
+            "m": 3,
+            "n": 3,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_3_up_tpH",
+            "btH_pin": "PORT_3_3_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_3_up_Opt1",
+                "Opt2": "MZI_3_3_up_Opt2",
+                "Opt3": "MZI_3_3_up_Opt3",
+                "Opt4": "MZI_3_3_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_3_up_Opt1": "MZI_3_3_in_Opt3",
+                "MZI_3_3_up_Opt2": "MZI_3_3_down_Opt1",
+                "MZI_3_3_up_Opt3": "MZI_3_2_down_Opt4",
+                "MZI_3_3_up_Opt4": "MZI_4_3_in_Opt2"
+            }
+        },
+        "MZI_3_3_down": {
+            "m": 3,
+            "n": 3,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_3_down_tpH",
+            "btH_pin": "PORT_3_3_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_3_down_Opt1",
+                "Opt2": "MZI_3_3_down_Opt2",
+                "Opt3": "MZI_3_3_down_Opt3",
+                "Opt4": "MZI_3_3_down_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_3_down_Opt1": "MZI_3_3_up_Opt2",
+                "MZI_3_3_down_Opt2": "MZI_3_3_in_Opt4",
+                "MZI_3_3_down_Opt3": "MZI_4_4_in_Opt1",
+                "MZI_3_3_down_Opt4": "MZI_3_4_up_Opt3"
+            }
+        },
+        "MZI_3_4_in": {
+            "m": 3,
+            "n": 4,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_4_in_tpH",
+            "btH_pin": "PORT_3_4_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_4_in_Opt1",
+                "Opt2": "MZI_3_4_in_Opt2",
+                "Opt3": "MZI_3_4_in_Opt3",
+                "Opt4": "MZI_3_4_in_Opt4"
+            },
+            "open_ports": [
+                "MZI_3_4_in_Opt2"
+            ],
+            "port_connections": {
+                "MZI_3_4_in_Opt1": "MZI_2_4_down_Opt3",
+                "MZI_3_4_in_Opt2": "OPEN",
+                "MZI_3_4_in_Opt3": "MZI_3_4_up_Opt1",
+                "MZI_3_4_in_Opt4": "MZI_3_4_down_Opt2"
+            }
+        },
+        "MZI_3_4_up": {
+            "m": 3,
+            "n": 4,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_4_up_tpH",
+            "btH_pin": "PORT_3_4_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_4_up_Opt1",
+                "Opt2": "MZI_3_4_up_Opt2",
+                "Opt3": "MZI_3_4_up_Opt3",
+                "Opt4": "MZI_3_4_up_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_3_4_up_Opt1": "MZI_3_4_in_Opt3",
+                "MZI_3_4_up_Opt2": "MZI_3_4_down_Opt1",
+                "MZI_3_4_up_Opt3": "MZI_3_3_down_Opt4",
+                "MZI_3_4_up_Opt4": "MZI_4_4_in_Opt2"
+            }
+        },
+        "MZI_3_4_down": {
+            "m": 3,
+            "n": 4,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_3_4_down_tpH",
+            "btH_pin": "PORT_3_4_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_3_4_down_Opt1",
+                "Opt2": "MZI_3_4_down_Opt2",
+                "Opt3": "MZI_3_4_down_Opt3",
+                "Opt4": "MZI_3_4_down_Opt4"
+            },
+            "open_ports": [
+                "MZI_3_4_down_Opt3",
+                "MZI_3_4_down_Opt4"
+            ],
+            "port_connections": {
+                "MZI_3_4_down_Opt1": "MZI_3_4_up_Opt2",
+                "MZI_3_4_down_Opt2": "MZI_3_4_in_Opt4",
+                "MZI_3_4_down_Opt3": "OPEN",
+                "MZI_3_4_down_Opt4": "OPEN"
+            }
+        },
+        "MZI_4_1_in": {
+            "m": 4,
+            "n": 1,
+            "dir": "in",
+            "state": "CS",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_1_in_tpH",
+            "btH_pin": "PORT_4_1_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_1_in_Opt1",
+                "Opt2": "MZI_4_1_in_Opt2",
+                "Opt3": "MZI_4_1_in_Opt3",
+                "Opt4": "MZI_4_1_in_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_1_in_Opt1"
+            ],
+            "port_connections": {
+                "MZI_4_1_in_Opt1": "OPEN",
+                "MZI_4_1_in_Opt2": "MZI_3_1_up_Opt4",
+                "MZI_4_1_in_Opt3": "MZI_4_1_up_Opt1",
+                "MZI_4_1_in_Opt4": "MZI_4_1_down_Opt2"
+            }
+        },
+        "MZI_4_1_up": {
+            "m": 4,
+            "n": 1,
+            "dir": "up",
+            "state": "BS",
+            "tpH_v": -3.725,
+            "tpH_p": 3.141592653589793,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_1_up_tpH",
+            "btH_pin": "PORT_4_1_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_1_up_Opt1",
+                "Opt2": "MZI_4_1_up_Opt2",
+                "Opt3": "MZI_4_1_up_Opt3",
+                "Opt4": "MZI_4_1_up_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_1_up_Opt3",
+                "MZI_4_1_up_Opt4"
+            ],
+            "port_connections": {
+                "MZI_4_1_up_Opt1": "MZI_4_1_in_Opt3",
+                "MZI_4_1_up_Opt2": "MZI_4_1_down_Opt1",
+                "MZI_4_1_up_Opt3": "OPEN",
+                "MZI_4_1_up_Opt4": "OPEN"
+            }
+        },
+        "MZI_4_1_down": {
+            "m": 4,
+            "n": 1,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_1_down_tpH",
+            "btH_pin": "PORT_4_1_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_1_down_Opt1",
+                "Opt2": "MZI_4_1_down_Opt2",
+                "Opt3": "MZI_4_1_down_Opt3",
+                "Opt4": "MZI_4_1_down_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_1_down_Opt3"
+            ],
+            "port_connections": {
+                "MZI_4_1_down_Opt1": "MZI_4_1_up_Opt2",
+                "MZI_4_1_down_Opt2": "MZI_4_1_in_Opt4",
+                "MZI_4_1_down_Opt3": "OPEN",
+                "MZI_4_1_down_Opt4": "MZI_4_2_up_Opt3"
+            }
+        },
+        "MZI_4_2_in": {
+            "m": 4,
+            "n": 2,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_2_in_tpH",
+            "btH_pin": "PORT_4_2_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_2_in_Opt1",
+                "Opt2": "MZI_4_2_in_Opt2",
+                "Opt3": "MZI_4_2_in_Opt3",
+                "Opt4": "MZI_4_2_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_4_2_in_Opt1": "MZI_3_1_down_Opt3",
+                "MZI_4_2_in_Opt2": "MZI_3_2_up_Opt4",
+                "MZI_4_2_in_Opt3": "MZI_4_2_up_Opt1",
+                "MZI_4_2_in_Opt4": "MZI_4_2_down_Opt2"
+            }
+        },
+        "MZI_4_2_up": {
+            "m": 4,
+            "n": 2,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_2_up_tpH",
+            "btH_pin": "PORT_4_2_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_2_up_Opt1",
+                "Opt2": "MZI_4_2_up_Opt2",
+                "Opt3": "MZI_4_2_up_Opt3",
+                "Opt4": "MZI_4_2_up_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_2_up_Opt4"
+            ],
+            "port_connections": {
+                "MZI_4_2_up_Opt1": "MZI_4_2_in_Opt3",
+                "MZI_4_2_up_Opt2": "MZI_4_2_down_Opt1",
+                "MZI_4_2_up_Opt3": "MZI_4_1_down_Opt4",
+                "MZI_4_2_up_Opt4": "OPEN"
+            }
+        },
+        "MZI_4_2_down": {
+            "m": 4,
+            "n": 2,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_2_down_tpH",
+            "btH_pin": "PORT_4_2_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_2_down_Opt1",
+                "Opt2": "MZI_4_2_down_Opt2",
+                "Opt3": "MZI_4_2_down_Opt3",
+                "Opt4": "MZI_4_2_down_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_2_down_Opt3"
+            ],
+            "port_connections": {
+                "MZI_4_2_down_Opt1": "MZI_4_2_up_Opt2",
+                "MZI_4_2_down_Opt2": "MZI_4_2_in_Opt4",
+                "MZI_4_2_down_Opt3": "OPEN",
+                "MZI_4_2_down_Opt4": "MZI_4_3_up_Opt3"
+            }
+        },
+        "MZI_4_3_in": {
+            "m": 4,
+            "n": 3,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_3_in_tpH",
+            "btH_pin": "PORT_4_3_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_3_in_Opt1",
+                "Opt2": "MZI_4_3_in_Opt2",
+                "Opt3": "MZI_4_3_in_Opt3",
+                "Opt4": "MZI_4_3_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_4_3_in_Opt1": "MZI_3_2_down_Opt3",
+                "MZI_4_3_in_Opt2": "MZI_3_3_up_Opt4",
+                "MZI_4_3_in_Opt3": "MZI_4_3_up_Opt1",
+                "MZI_4_3_in_Opt4": "MZI_4_3_down_Opt2"
+            }
+        },
+        "MZI_4_3_up": {
+            "m": 4,
+            "n": 3,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_3_up_tpH",
+            "btH_pin": "PORT_4_3_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_3_up_Opt1",
+                "Opt2": "MZI_4_3_up_Opt2",
+                "Opt3": "MZI_4_3_up_Opt3",
+                "Opt4": "MZI_4_3_up_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_3_up_Opt4"
+            ],
+            "port_connections": {
+                "MZI_4_3_up_Opt1": "MZI_4_3_in_Opt3",
+                "MZI_4_3_up_Opt2": "MZI_4_3_down_Opt1",
+                "MZI_4_3_up_Opt3": "MZI_4_2_down_Opt4",
+                "MZI_4_3_up_Opt4": "OPEN"
+            }
+        },
+        "MZI_4_3_down": {
+            "m": 4,
+            "n": 3,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_3_down_tpH",
+            "btH_pin": "PORT_4_3_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_3_down_Opt1",
+                "Opt2": "MZI_4_3_down_Opt2",
+                "Opt3": "MZI_4_3_down_Opt3",
+                "Opt4": "MZI_4_3_down_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_3_down_Opt3"
+            ],
+            "port_connections": {
+                "MZI_4_3_down_Opt1": "MZI_4_3_up_Opt2",
+                "MZI_4_3_down_Opt2": "MZI_4_3_in_Opt4",
+                "MZI_4_3_down_Opt3": "OPEN",
+                "MZI_4_3_down_Opt4": "MZI_4_4_up_Opt3"
+            }
+        },
+        "MZI_4_4_in": {
+            "m": 4,
+            "n": 4,
+            "dir": "in",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_4_in_tpH",
+            "btH_pin": "PORT_4_4_in_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_4_in_Opt1",
+                "Opt2": "MZI_4_4_in_Opt2",
+                "Opt3": "MZI_4_4_in_Opt3",
+                "Opt4": "MZI_4_4_in_Opt4"
+            },
+            "open_ports": [],
+            "port_connections": {
+                "MZI_4_4_in_Opt1": "MZI_3_3_down_Opt3",
+                "MZI_4_4_in_Opt2": "MZI_3_4_up_Opt4",
+                "MZI_4_4_in_Opt3": "MZI_4_4_up_Opt1",
+                "MZI_4_4_in_Opt4": "MZI_4_4_down_Opt2"
+            }
+        },
+        "MZI_4_4_up": {
+            "m": 4,
+            "n": 4,
+            "dir": "up",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_4_up_tpH",
+            "btH_pin": "PORT_4_4_up_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_4_up_Opt1",
+                "Opt2": "MZI_4_4_up_Opt2",
+                "Opt3": "MZI_4_4_up_Opt3",
+                "Opt4": "MZI_4_4_up_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_4_up_Opt4"
+            ],
+            "port_connections": {
+                "MZI_4_4_up_Opt1": "MZI_4_4_in_Opt3",
+                "MZI_4_4_up_Opt2": "MZI_4_4_down_Opt1",
+                "MZI_4_4_up_Opt3": "MZI_4_3_down_Opt4",
+                "MZI_4_4_up_Opt4": "OPEN"
+            }
+        },
+        "MZI_4_4_down": {
+            "m": 4,
+            "n": 4,
+            "dir": "down",
+            "state": "AV",
+            "tpH_v": 0.0,
+            "tpH_p": 0.0,
+            "btH_v": 0.0,
+            "btH_p": 0.0,
+            "tpH_pin": "PORT_4_4_down_tpH",
+            "btH_pin": "PORT_4_4_down_btH",
+            "optical_ports": {
+                "Opt1": "MZI_4_4_down_Opt1",
+                "Opt2": "MZI_4_4_down_Opt2",
+                "Opt3": "MZI_4_4_down_Opt3",
+                "Opt4": "MZI_4_4_down_Opt4"
+            },
+            "open_ports": [
+                "MZI_4_4_down_Opt3",
+                "MZI_4_4_down_Opt4"
+            ],
+            "port_connections": {
+                "MZI_4_4_down_Opt1": "MZI_4_4_up_Opt2",
+                "MZI_4_4_down_Opt2": "MZI_4_4_in_Opt4",
+                "MZI_4_4_down_Opt3": "OPEN",
+                "MZI_4_4_down_Opt4": "OPEN"
+            }
+        }
+    }
+}
