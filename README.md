@@ -154,7 +154,7 @@ To deploy the studio on your local workstation, follow these steps:
 git clone [https://github.com/AyushSoni/photonic-hexagonal-mesh-studio.git](https://github.com/AyushSoni/photonic-hexagonal-mesh-studio.git)
 
 # 2. Navigate to the working directory
-cd photonic-hexagonal-mesh-studio
+cd photonic-hexagonal-mesh-studio\src
 
 # 3. Create a virtual environment (Recommended)
 python -m venv venv
